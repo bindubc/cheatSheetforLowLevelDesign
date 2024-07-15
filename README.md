@@ -1,2 +1,70 @@
-# cheatSheetforLowLevelDesign
-cheat sheet for low level design 
+# Cheat Sheet for LowLevel Design
+### List of Question to excerise 
+
+-  Parking Lot System
+      - Design Levels: How would you design a multi-level parking lot? What kind of layout would be best suited for the design?
+      - Classes and Data Structures: What classes and data structures would you design to make the parking lot, levels, and slots manageable?
+      - Vehicle Management: How are you going to manage the vehicle parking and unparking? How are you going to ensure efficient space utilization?
+      - Tracking Availability: How do you track available parking space and update it in real-time?
+- Online Bookstore
+  - Entities and Relationships: What classes and methods would you have to deal with for books, patrons, and orders? How would you interrelate these entities?
+  - Searching: How will you allow books to be searched for by title, author, subject, etc.? What sort of algorithms do you employ for this searching to be efficient?
+  - Inventory Management: How will you manage book inventory in regards to stock and restocking levels?
+  - Order Processing: How would you handle order placing, processing payment, and proceeding to order fulfillment?
+- Library Management System
+  - Entities and Relationships: What are the key entities, for example, books, members, loans, and their inter-relationship? How would you go about modeling these entities?
+  - Book Lending/Returning: How do you envisage lending and returning of books? What procedures can guarantee proper tracking?
+  - Overdue Management: How do you plan to manage overdue books and fines? What reminders and fines will you put in place?
+- Movie Ticket Booking System
+  - Entities Representation: How would you represent movies, theatres, and show timings? What data structures would you use?
+  - Booking and Cancellation: Which classes and methods will handle the booking and cancellation of tickets? How would you identify classes for seat availability and reservation handling?
+  - User Interaction: How would you define the interface by which users will search for movies, select show times, and book tickets? What kind of user experience would you add?
+- Elevator System
+  - System Modeling: How would you model the elevator and the building it services?
+  - Elevator Scheduling Algorithm: What algorithms would you use to schedule elevators efficiently and handle several requests across many floors?
+  - Request Processing: How do you process up and down requests efficiently? How do you handle peak periods?
+- Hotel Management System
+  - Entities and Relationships: Which classes and functions would be created to handle the rooms, guests, and bookings? How would the entities be connected?
+  - Booking Process: How would you process the booking from reservation up to check-out?
+  - Room Availability: How would you track room availability? How do you avoid overbooking?
+- Ride-Sharing Service
+  - Entity Modeling: How would you model the following entities: driver, rider, ride?
+  - Algorithm for Matching: Which algorithms will you use for matching drivers and riders based on their location and availability?
+  - Request Management: How will you manage requests for rides, cancellations, and payments in real-time?
+- File Storage System (e.g., Google Drive)
+  - Key Classes: What will be the key classes, and what will be their relationships in a file storage system?
+  - File Operations: How would you handle different file operations, for example, upload, download, and sharing of files?
+  - User Permissions and File Versioning: How do you handle user permissions with respect to file versioning, enforcement of security, and integrity?
+- Chat Application
+  - Key Features: What would be the key features of a chat application, for example, user, message, and chat room?
+  - Message Handling: How would you provide the facility to send, receive, and store messages? How are messages delivered in real-time?
+  - User Authentication: How do you handle user authentication while ensuring secure communication?
+- Social Media Platform
+  - Entities and Relationships: What are the main entities (for example, user, post, comment) and how do they relate to each other?
+  - Management for Posts: How to manage posts, comments, and likes added by users? How do you ensure scalability?
+  - User Interaction: How does a user profile system work in conjunction with friendships and notifications?
+- Notification System
+  - Modeling Notifications: How would you model notifications and users in your system?
+  - Delivery Mechanism: How would you handle different types of notifications, like email, SMS, or push?
+  - Reliable Delivery: How do you ensure that notifications arrive reliably and in a timely manner?
+- Airline Reservation System
+  - Entities and Relationships: What are the major entities and their relationships?
+  - Flight Scheduling: How would flight scheduling, booking, and cancellations be managed in this system?
+  - Seat Assignment: How would seat assignment and passenger information be maintained?
+- ATM System
+  - Key Classes: What would be the key classes and their interaction with each other? For example, ATM, user class, transaction.
+  - User Authentication: How will you authenticate users and process transactions securely?
+  - Transaction Handling: How to handle cash dispensing, balance enquiry, and account updates?
+- E-commerce Website
+  - Entities and Relationships: What could be the major entities to this problem, including products, customers, and orders, and what are their interrelations?
+  - Product Management: What approach would you take with the product catalog, inventory management, and order processing?
+  - User Experience: How do you go about the management of authentication, payment processing, and delivery for an experience that is seamless to the shopper?
+- Food Delivery System
+  - Modeling Entities: What will the design be like for restaurants, menus, and orders?
+  - Order Management: What algorithms would you use to achieve order assignment and delivery routing in such a way as to guarantee timely delivery?
+  - User Interaction: How would you handle user authentication, payments, and real-time order tracking?
+- Shopping Cart System
+  - Entities and Relationships: What are the main entities involved, such as products, users, and carts? How do they interact with each other?
+  - Cart Operations: How would you handle adding, updating, and removing items in the cart? What methods ensure these operations are efficient?
+  - Checkout Process: How do you manage the checkout process, including payment processing and order confirmation?
+  - User Experience: How would you design the user experience to be intuitive and user-friendly?
